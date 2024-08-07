@@ -4,7 +4,7 @@ function connection()
 {
     $servername = "13.127.134.233";
     $username = "root";
-    $password = "pass@123";
+    $password = "root12345";
     $dbname = "CovidDB";
 
     $conn = new mysqli($servername, $username, $password, $dbname);
